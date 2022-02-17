@@ -39,7 +39,12 @@
   6.git 提交
      git status //查看git状态
      git add . //提交文件至本地 git 缓存区
-     git add src/componet/xx.vue  //提交某个文件至本地 git 缓存区
+          git add src/componet/xx.vue  //提交某个文件至本地 git 缓存区
      git commit -m 'new features' //提交代码至本地git库
      git pull //拉分支
      git push  //上传代码
+     
+  7. idea 使用git
+     本地安装了git之后，idea中就会有相关git配置
+     可以选择新建文件的时候自动add
+     然后就是git commit了，记得自动选择git and push
