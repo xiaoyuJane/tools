@@ -1,4 +1,4 @@
-1.git和本地建立ssh免密
+### 1.git和本地建立ssh免密
      ssh-keygen -t rsa -C "errorl@126.com" //本地文件夹建立.ssh文件夹
      clip < ~/.ssh/id_rsa.pub //直接赋值粘贴 .ssh的文件会破坏格式，在文件夹下打开git bash，复制id_rsa.pub下内容
      进入github，点击头像，选择settings-》ssh keys 》 add new, 在key下粘贴上述内容 》add ssh key
@@ -8,6 +8,7 @@
      refer：https://blog.csdn.net/yjw123456/article/details/119696726
      setting >> Developer settings >>点击Personal access tokens(个人访问令牌) >> Generate new token >>点击Generate token生成令牌 >>copy token
       git remote set-url origin https://xxx@github.com/xiaoyuJane/leetcode.git //将token放在xxx位置
+git clone https://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@github.com/xiaoyuJane/leetcode.git
       
      
 2.设置每次提交记录的用户名和密码
