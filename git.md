@@ -1,13 +1,13 @@
 ### git和本地建立ssh免密
-     ssh-keygen -t rsa -C "errorl@126.com" //本地文件夹建立.ssh文件夹
-     clip < ~/.ssh/id_rsa.pub //直接赋值粘贴 .ssh的文件会破坏格式，在文件夹下打开git bash，复制id_rsa.pub下内容
-     进入github，点击头像，选择settings-》ssh keys 》 add new, 在key下粘贴上述内容 》add ssh key
-     在gitbat ssh -T git@github.com 登录
+     - ssh-keygen -t rsa -C "errorl@126.com" //本地文件夹建立.ssh文件夹
+     - clip < ~/.ssh/id_rsa.pub //直接赋值粘贴 .ssh的文件会破坏格式，在文件夹下打开git bash，复制id_rsa.pub下内容
+     - 进入github，点击头像，选择settings-》ssh keys 》 add new, 在key下粘贴上述内容 》add ssh key
+     - 在gitbat ssh -T git@github.com 登录
      
 ### 使用个人token登录 Support for password authentication was removed on August 13, 2021. Please use a personal access token instead.
-     refer：https://blog.csdn.net/yjw123456/article/details/119696726
-     setting >> Developer settings >>点击Personal access tokens(个人访问令牌) >> Generate new token >>点击Generate token生成令牌 >>copy token
-      git remote set-url origin https://xxx@github.com/xiaoyuJane/leetcode.git //将token放在xxx位置
+     > refer：https://blog.csdn.net/yjw123456/article/details/119696726
+     - setting >> Developer settings >>点击Personal access tokens(个人访问令牌) >> Generate new token >>点击Generate token生成令牌 >>copy token
+     git remote set-url origin https://xxx@github.com/xiaoyuJane/leetcode.git //将token放在xxx位置
      git clone https://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@github.com/xiaoyuJane/leetcode.git
       
      
@@ -46,6 +46,6 @@
      git push  //上传代码
      
   ### idea 使用git
-     本地安装了git之后，idea中就会有相关git配置
-     可以选择新建文件的时候自动add
-     然后就是git commit了，记得自动选择git and push
+     - 本地安装了git之后，idea中就会有相关git配置
+     - 可以选择新建文件的时候自动add
+     - 然后就是git commit了，记得自动选择git and push
