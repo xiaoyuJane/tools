@@ -5,7 +5,7 @@
      - 在gitbat ssh -T git@github.com 登录
      
 ### 使用个人token登录 Support for password authentication was removed on August 13, 2021. Please use a personal access token instead.
-     > refer：https://blog.csdn.net/yjw123456/article/details/119696726
+     refer：https://blog.csdn.net/yjw123456/article/details/119696726
      - setting >> Developer settings >>点击Personal access tokens(个人访问令牌) >> Generate new token >>点击Generate token生成令牌 >>copy token
      git remote set-url origin https://xxx@github.com/xiaoyuJane/leetcode.git //将token放在xxx位置
      git clone https://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@github.com/xiaoyuJane/leetcode.git
