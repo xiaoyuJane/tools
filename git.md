@@ -9,6 +9,8 @@
      - setting >> Developer settings >>点击Personal access tokens(个人访问令牌) >> Generate new token >>点击Generate token生成令牌 >>copy token
      git remote set-url origin https://xxx@github.com/xiaoyuJane/leetcode.git //将token放在xxx位置
      git clone https://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@github.com/xiaoyuJane/leetcode.git
+     git remote set-url origin git+ssh://git@github.com/xiaoyuJane/leetcode.git
+     
       
      
 ### 设置每次提交记录的用户名和密码
